@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import "../../src/App.css"
 import { StarRating } from '../helper/StarRating';
 import LazyLoad from 'react-lazyload';
+import ProgressiveImage from '../helper/ProgressiveImage';
+import placeholder from '/placeholder.svg';
+import spinner from '/spinner1.svg'
 
 
 const Card = ({ title, description, image,team,color,tag,status,runs,strikeRate,wickets,economy,average,sixes,toggle }) => {
@@ -22,9 +25,11 @@ const Card = ({ title, description, image,team,color,tag,status,runs,strikeRate,
         <div className={`flex justify-end items-end mr-2 font-serif ${toggle?'bg-black text-white':'bg-white text-black'}   px-1 mt-2  ml-[256px] rounded-s-xl`}>{status}</div>
         
         {/* Implementing lazy Loading for UI rendering */}
-        <LazyLoad offset={100} height={200} placeholder={<div className='bg-gray-300 w-full h-full'>Loading...</div>}>
+        {/* <LazyLoad offset={100} height={200} className='text-red-600' placeholder={<div className='bg-gray-300 w-full h-full'>Loading...</div>}>
         <img src={image} alt={title} className="object-cover w-full h-full transition-transform duration-300 transform hover:scale-110" />
-        </LazyLoad>
+        </LazyLoad> */}
+         <ProgressiveImage lowResSrc={spinner} 
+        highResSrc={image} alt={title} />
        
       </div>
       <div className="p-4 flex-1">
