@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "title": "Ms Dhoni",
+    "description": "Batsman",
+    "picture": "/cricketers/SamplePic01.png",
+    "team": "Chennai Super Kings",
+    "color": "yellow",
+    "tag": "Finisher",
+    "status": "LEGEND",
+    "stats": {
+      "runs": 4876,
+      "strike_rate": 133.65,
+      "sixes": 230,
+      "wickets": 0,
+      "economy": 0,
+      "average": 0
+    }
+  },
+  {
+    "id": 2,
+    "title": "Virat Kohli",
+    "description": "Batsman",
+    "picture": "/cricketers/SamplePic02.png",
+    "team": "Royal Challengers Bengaluru",
+    "color": "red",
+    "tag": "Chase Master",
+    "status": "LEGEND",
+    "stats": {
+      "runs": 8124,
+      "strike_rate": 133.63,
+      "sixes": 207,
+      "wickets": 0,
+      "economy": 0.00,
+      "average": 31.44
+    }
+  },
+  {
+    "id": 3,
+    "title": "Ravindra Jadeja",
+    "description": "All-rounder",
+    "picture": "/cricketers/SamplePic03.png",
+    "team": "Chennai Super Kings",
+    "color": "yellow",
+    "tag": "Spin Maestro",
+    "stats": {
+      "runs": 2307,
+      "strike_rate": 117.65,
+      "sixes": 220,
+      "wickets": 247,
+      "economy": 7.66,
+      "average": 28.34
+    }
+  },
+  {
+    "id": 4,
+    "title": "Rohit Sharma",
+    "description": "Opening Batsman",
+    "picture": "/cricketers/SamplePic04.png",
+    "team": "Mumbai Indians",
+    "color": "blue",
+    "tag": "Hitman",
+    "status": "LEGEND",
+    "stats": {
+      "runs": 10426,
+      "strike_rate": 146.93,
+      "sixes": 212,
+      "wickets": 32,
+      "economy": 7.50,
+      "average": 31.44
+    }
+  },
+  {
+    "id": 5,
+    "title": "Hardik Pandya",
+    "description": "All-rounder",
+    "picture": "/cricketers/SamplePic05.png",
+    "team": "Mumbai Indians",
+    "color": "blue",
+    "tag": "Big Hitter",
+    "stats": {
+      "runs": 2208,
+      "strike_rate": 148.83,
+      "sixes": 175,
+      "wickets": 54,
+      "economy": 9.04,
+      "average": 32.29
+    }
+  },
+  {
+    "id": 6,
+    "title": "Jasprit Bumrah",
+    "description": "Fast Bowler",
+    "picture": "/cricketers/SamplePic06.png",
+    "team": "Mumbai Indians",
+    "color": "blue",
+    "tag": "Yorker Specialist",
+    "status": "LEGEND",
+    "stats": {
+      "runs": 0,
+      "strike_rate": 0.00,
+      "sixes": 0,
+      "wickets": 128,
+      "economy": 7.45,
+      "average": 24.82
+    }
+  },
+  {
+    "id": 7,
+    "title": "Jos Buttler",
+    "description": "Wicketkeeper-Batsman",
+    "picture": "/cricketers/SamplePic07.png",
+    "team": "Rajasthan Royals",
+    "color": "pink",
+    "tag": "Explosive Batsman",
+    "stats": {
+      "runs": 4174,
+      "strike_rate": 146.78,
+      "sixes": 151,
+      "wickets": 26,
+      "economy": 0.00,
+      "average": 31.34
+    }
+  },
+  {
+    "id": 8,
+    "title": "Mitchell Starc",
+    "description": "Fast Bowler",
+    "picture": "/cricketers/SamplePic08.png",
+    "team": "Kolkata Knight Riders",
+    "color": "purple",
+    "tag": "Left-arm Specialist",
+    "stats": {
+      "runs": 0,
+      "strike_rate": 0.00,
+      "sixes": 0,
+      "wickets": 196,
+      "economy": 7.94,
+      "average": 22.86
+    }
+  },
+  {
+    "id": 9,
+    "title": "Suryakumar Yadav",
+    "description": "Batsman",
+    "picture": "/cricketers/SamplePic09.png",
+    "team": "Mumbai Indians",
+    "color": "blue",
+    "tag": "360° Player",
+    "stats": {
+      "runs": 3241,
+      "strike_rate": 144.96,
+      "sixes": 135,
+      "wickets": 0,
+      "economy": 0.00,
+      "average": 38.01
+    }
+  },
+  {
+    "id": 10,
+    "title": "Rishabh Pant",
+    "description": "Wicketkeeper-Batsman",
+    "picture": "/cricketers/SamplePic10.png",
+    "team": "Delhi Capitals",
+    "color": "#6B89F8",
+    "tag": "Attacking Batsman",
+    "stats": {
+      "runs": 4435,
+      "strike_rate": 162.08,
+      "sixes": 192,
+      "wickets": 19,
+      "economy": 0.00,
+      "average": 38.14
+    }
+  },
+  {
+    "id": 11,
+    "title": "Pat Cummins",
+    "description": "Fast Bowler",
+    "picture": "/cricketers/SamplePic11.png",
+    "team": "Sunrisers Hyderabad",
+    "color": "orange",
+    "tag": "Pace Spearhead",
+    "stats": {
+      "runs": 0,
+      "strike_rate": 0.00,
+      "sixes": 0,
+      "wickets": 182,
+      "economy": 7.46,
+      "average": 24.09
+    }
+  },
+  {
+    "id": 12,
+    "title": "Andre Russell",
+    "description": "All-rounder",
+    "picture": "/cricketers/SamplePic12.png",
+    "team": "Kolkata Knight Riders",
+    "color": "purple",
+    "tag": "Power Hitter",
+    "stats": {
+      "runs": 4452,
+      "strike_rate": 165.34,
+      "sixes": 186,
+      "wickets": 175,
+      "economy": 8.85,
+      "average": 26.53
+    }
+  },
+  {
+    "id": 13,
+    "title": "Riyan Parag",
+    "description": "Batsman",
+    "picture": "/cricketers/SamplePic13.png",
+    "team": "Rajasthan Royals",
+    "color": "pink",
+    "tag": "Young Talent",
+    
+    "stats": {
+      "runs": 1241,
+      "strike_rate": 147.23,
+      "sixes": 68,
+      "wickets": 1,
+      "economy": 10.50,
+      "average": 24.82
+    }
+  },
+  {
+    "id": 14,
+    "title": "Shubman Gill",
+    "description": "Opening Batsman",
+    "picture": "/cricketers/SamplePic14.png",
+    "team": "Gujarat Titans",
+    "color": "#030542",
+    "tag": "Elegant Batsman",
+   
+    "stats": {
+      "runs": 1296,
+      "strike_rate": 123.45,
+      "sixes": 21,
+      "wickets": 0,
+      "economy": 0.00,
+      "average": 32.40
+    }
+  },
+  {
+    "id": 15,
+    "title": "Sam Curran",
+    "description": "All-rounder",
+    "picture": "/cricketers/SamplePic15.png",
+    "team": "Punjab Kings",
+    "color": "#FD5348",
+    "tag": "Left-arm All-rounder",
+    "stats": {
+      "runs": 795,
+      "strike_rate": 142.31,
+      "sixes": 32,
+      "wickets": 46,
+      "economy": 8.42,
+      "average": 22.52
+    }
+  },
+  {
+    "id": 16,
+    "title": "AB de Villiers",
+    "description": "Batsman",
+    "picture": "/cricketers/SamplePic16.png",
+    "team": "Royal Challengers Bengaluru",
+    "color": "red",
+    "tag": "Mr. 360",
+    "status": "LEGEND",
+    "stats": {
+      "runs": 5162,
+      "strike_rate": 151.67,
+      "sixes": 230,
+      "wickets": 0,
+      "economy": 0.00,
+      "average": 39.70
+    }
+  },
+  {
+    "id": 17,
+    "title": "David Warner",
+    "description": "Opening Batsman",
+    "picture": "/cricketers/SamplePic17.png",
+    "team": "Delhi Capitals",
+    "color": "#6B89F8",
+    "tag": "Explosive Opener",
+    "status": "LEGEND",
+    "stats": {
+      "runs": 5887,
+      "strike_rate": 140.34,
+      "sixes": 204,
+      "wickets": 0,
+      "economy": 0.00,
+      "average": 44.13
+    }
+  },
+  {
+    "id": 18,
+    "title": "KL Rahul",
+    "description": "Opening Batsman",
+    "picture": "/cricketers/SamplePic18.png",
+    "team": "Lucknow Super Giants",
+    "color": "#283B81",
+    "tag": "Stylish Batsman",
+    "stats": {
+      "runs": 6235,
+      "strike_rate": 133.33,
+      "sixes": 195,
+      "wickets": 0,
+      "economy": 0.00,
+      "average": 45.26
+    }
+  },
+  {
+    "id": 19,
+    "title": "Nicholas Pooran",
+    "description": "Wk",
+    "picture": "/cricketers/SamplePic19.png",
+    "team": "Lucknow Super Giants",
+    "color": "#283B81",
+    "tag": "Big-hitting Batsman",
+    "stats": {
+      "runs": 1883,
+      "strike_rate": 160.54,
+      "sixes": 105,
+      "wickets": 11,
+      "economy": 0.00,
+      "average": 31.45
+    }
+  },
+  {
+    "id": 20,
+    "title": "Chris Gayle",
+    "description": "Batsman",
+    "picture": "/cricketers/SamplePic20.png",
+    "team": "Royal Challengers Bengaluru",
+    "color": "red",
+    "tag": "Universe Boss",
+    "status": "LEGEND",
+    "stats": {
+      "runs": 4832,
+      "strike_rate": 149.09,
+      "sixes": 357,
+      "wickets": 0,
+      "economy": 0.00,
+      "average": 40.27
+    }
+  }
+]
