@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import "../../src/App.css"
 import { StarRating } from '../helper/StarRating';
-import LazyLoad from 'react-lazyload';
 import ProgressiveImage from '../helper/ProgressiveImage';
-import placeholder from '/placeholder.svg';
-import spinner from '/spinner1.svg'
+import spinner from '/spinner.svg'
 
 
 const Card = ({ title, description, image,team,color,tag,status,runs,strikeRate,wickets,economy,average,sixes,toggle }) => {
