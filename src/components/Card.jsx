@@ -21,8 +21,8 @@ const Card = ({ title, description, image,team,color,tag,status,runs,strikeRate,
       
         <div className={`flex justify-end items-end mr-2 font-serif ${toggle?'bg-black text-white':'bg-white text-black'}   px-1 mt-2  ml-[256px] rounded-s-xl`}>{status}</div>
         
-        // Implementing lazy Loading for UI rendering
-        <LazyLoad offset={100} height={200} placeholder={<div className='bg-gray-300 w-full h-full'></div>}>
+        {/* Implementing lazy Loading for UI rendering */}
+        <LazyLoad offset={100} height={200} placeholder={<div className='bg-gray-300 w-full h-full'>Loading...</div>}>
         <img src={image} alt={title} className="object-cover w-full h-full transition-transform duration-300 transform hover:scale-110" />
         </LazyLoad>
        
