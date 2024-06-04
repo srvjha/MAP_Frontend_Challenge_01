@@ -53,9 +53,9 @@ function App() {
       <div className="bg-[#1F062A] min-h-screen flex flex-col max-w-screen-2xl mx-auto">   
        
         <div className="py-2">
-        <div className=' flex flex-row space-x-2 text-2xl  text-white justify-center items-center sm:ml-[500px] ml-[200px] p-2 rounded-full sm:mr-[500px]'>
-        <div className='bg-yellow-500 hover:bg-yellow-200 text-black font-medium font-serif sm:p-2  md:p-2 p-2 rounded-lg cursor-pointer' onClick={()=>handleToggle()}>Color Switch</div>
-        <div className='bg-yellow-500  hover:bg-yellow-200  text-black font-medium font-serif  sm:p-2  md:p-2  p-2 rounded-lg cursor-pointer' onClick={()=>handleShuffle()}>Shuffle Cards</div>
+        <div className=' flex flex-row space-x-2 text-2xl  text-white justify-center items-center sm:ml-[500px] ml-[80px] p-2 rounded-full sm:mr-[500px]'>
+        <div className='bg-yellow-500 hover:bg-yellow-200 text-black text-[20px] w-[150px] sm:w-[200px]  sm:text-[25px]  font-serif font-semibold sm:p-2  md:p-2 p-2 rounded-lg cursor-pointer' onClick={()=>handleToggle()}>Color Switch</div>
+        <div className='bg-yellow-500  hover:bg-yellow-200  text-black text-[20px] w-[170px] sm:w-[200px]  sm:text-[25px]  font-serif font-semibold  sm:p-2  md:p-2  p-2 rounded-lg cursor-pointer' onClick={()=>handleShuffle()}>Shuffle Cards</div>
        </div>
         </div>
         <div className='flex-grow mt-20 overflow-x-auto ml-5 '>
