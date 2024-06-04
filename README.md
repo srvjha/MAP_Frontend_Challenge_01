@@ -1,8 +1,18 @@
-# React + Vite
+## Challenge Completed.
+Successfully Completed the horizontal scroll with 20 sample photos with 20 different details
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Deployed Link](https://map-frontend-challenge-01-chi.vercel.app)
 
-Currently, two official plugins are available:
+## Project Details
+# Tech Stack Used
+- Vite React App
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features Added
+- Auto Infinite Scrolling
+- Toggle Cards
+- Shuffle Cards
+- Star Rating
+- Skeleton Loading
+- Progressive Loader
+
