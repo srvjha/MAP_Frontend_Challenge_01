@@ -14,7 +14,7 @@ const ProgressiveImage = ({ lowResSrc, highResSrc, alt }) => {
         src={highResSrc}
         alt={alt}
         onLoad={() => setLoaded(true)}
-        className={`high-res ${loaded ? 'loaded' : ''}`}
+        className={`high-res ${loaded ? 'loaded' : ''} transition-transform duration-300 transform hover:scale-105`}
       />
     </div>
   );
